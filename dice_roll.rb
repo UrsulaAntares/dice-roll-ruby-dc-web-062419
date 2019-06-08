@@ -12,3 +12,6 @@ def roll
   order = rand(6)
   puts order
 end
+
+
+roll
