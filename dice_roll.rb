@@ -11,7 +11,7 @@ def roll
   range_array = [1,2,3,4,5,6]
   order = rand(6)
   #puts order
-  puts range_array[3]
+  puts range_array[order]
 end
 
 
