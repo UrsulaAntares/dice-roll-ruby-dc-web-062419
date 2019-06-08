@@ -9,5 +9,6 @@
 
 def roll
   range_array = [1,2,3,4,5,6]
-  return rand(1..6)
+  order = rand(6)
+  return range_array[order]
 end
