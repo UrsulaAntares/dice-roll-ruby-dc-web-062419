@@ -9,7 +9,7 @@
 
 def roll
   range_array = [1,2,3,4,5,6]
-  order = rand(6)
+  order = rand(7)
   #puts order
   puts range_array[order]
 end
