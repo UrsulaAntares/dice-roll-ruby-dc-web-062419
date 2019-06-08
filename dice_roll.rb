@@ -12,6 +12,7 @@ def roll
   order = rand(0..6)
   #puts order
   puts range_array[order]
+  return range_array[order]
 end
 
 
